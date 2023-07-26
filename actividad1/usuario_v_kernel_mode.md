@@ -24,7 +24,7 @@ La falta de un modo dual, es decir, un modo de usuario y un modo kernel en un si
 
 ## Diferencias entre Modo Usuario y MoUdo Kernel
 |                                    Modo Kernel                                    |                                                                     Modo Usuario                                                                    |
-|:---------------------------------------------------------------------------------|:---------------------------------------------------------------------------------------------------------------------------------------------------|
+|---------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------|
 | El programa tiene acceso directo y sin restricciones a los recursos del sistema.  | El programa de aplicación no tiene acceso directo a los recursos del sistema. Para acceder a los recursos, se debe realizar una llamada al sistema. |
 | Todo el sistema operativo puede dejar de funcionar si se produce una interrupción | Un solo proceso falla si ocurre una interrupción.                                                                                                   |
 | Todos los procesos comparten un único espacio de direcciones virtuales.           | Todos los procesos obtienen un espacio de direcciones virtuales separado.                                                                           |

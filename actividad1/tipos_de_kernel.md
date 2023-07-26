@@ -18,22 +18,16 @@ Un kernel siempre tiene la misma estructura y consta de varias capas:
 * Gestor de dispositivos (Device Management) 
 * Sistema de archivos -> Capa más alta del Kernel, Allí, se le asigna un espacio en la memoria principal o secundaria a los procesos.
 
+El otro modo es el modo de usuario, que es un modo sin privilegios para los programas de usuario. Por lo tanto , cuando un proceso se ejecuta en [modo usuario](/actividad1/usuario_v_kernel_mode.md), tiene acceso limitado a la CPU y la memoria.
+
+![Capas del Kernel](/actividad1/imgs/ "Capas del Kernel")
+
 ### Funciones del Kernel
 
 * Gestión del almacenamiento: controla cuánta memoria se utiliza y dónde.
 * Gestión de procesos: determina qué procesos puede utilizar la CPU, cuándo y durante cuánto tiempo.
 * Controlador de dispositivos: comunica el hardware con los procesos.
 * Llamadas al sistema y seguridad: recibe peticiones de servicio de los procesos.
-
-## Usage
-
-A few examples of useful commands and/or tasks.
-
-```
-$ First example
-$ Second example
-$ And keep this in mind
-```
 
 ## Tipos de Kernel
 

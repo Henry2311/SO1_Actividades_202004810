@@ -20,7 +20,7 @@ Un kernel siempre tiene la misma estructura y consta de varias capas:
 
 El otro modo es el modo de usuario, que es un modo sin privilegios para los programas de usuario. Por lo tanto , cuando un proceso se ejecuta en [modo usuario](/actividad1/usuario_v_kernel_mode.md), tiene acceso limitado a la CPU y la memoria.
 
-![Capas del Kernel](/actividad1/imgs/ "Capas del Kernel")
+![Capas del Kernel](/actividad1/imgs/diagrama.jpeg "Capas del Kernel")
 
 ### Funciones del Kernel
 

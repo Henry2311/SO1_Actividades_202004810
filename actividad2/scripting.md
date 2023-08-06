@@ -4,10 +4,14 @@ La actividad consiste en crear un script en BASH que permita consultar los datos
 
 ## Configuración
 
-1.  DEscargar el archivo ![github_user.sh](/actividad2/github_user.sh "github_user.sh") de este repositorio.
+1.  DEscargar el archivo ![github_user.sh](/actividad2/github_user.sh) de este repositorio.
 2.  Se debe reemplazar el valro de la variable 'GITHUB_USER' para obtener los datos el usuario deseado.
-3.  Debe de dale permisos de ejecución al archivo del script.
-```text
+3.  Instalar la herramienta jq para manipular el JSON obtenido desde el webservice.
+```code
+chmod +x tu_script.sh
+```
+4.  Debe de dale permisos de ejecución al archivo del script.
+```code
 chmod +x tu_script.sh
 ```
 
